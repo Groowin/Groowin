@@ -1,0 +1,15 @@
+export default function Page() {
+  return (
+    <div className="min-h-screen flex">
+      <aside className="w-64 p-4 bg-gray-100">
+        <h2>Groowin экожүйесі</h2>
+        <button className="mt-4 px-3 py-2 bg-blue-600 text-white rounded">
+          ҚМЖ жасау
+        </button>
+      </aside>
+      <main className="p-4 flex-1">
+        {/* Бұл жерде форма және нәтиже шығады */}
+      </main>
+    </div>
+  );
+}
